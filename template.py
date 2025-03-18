@@ -2,10 +2,10 @@ import os
 from pathlib import Path
 import logging
 
+#logging string
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name="mlProject" 
-
+project_name = "mlProject"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -20,20 +20,16 @@ list_of_files = [
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
-    "schema.yaml",
-    "main.py",
-    "app.py",
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
     "templates/index.html",
-    "test.py"
+    "main.py",
+    "app.py",
+    "schema.yaml",
 
 
 ]
-
-
-
 
 
 for filepath in list_of_files:

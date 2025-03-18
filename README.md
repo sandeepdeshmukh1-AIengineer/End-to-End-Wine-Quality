@@ -11,7 +11,8 @@
 7. Update the pipeline 
 8. Update the main.py
 9. Update the dvc.yaml
-10. app.py
+10.Update the app.py
+11.Update the schema.yaml
 
 # How to run?
 ### STEPS:
@@ -36,3 +37,4 @@ conda activate mlproj
 ```bash
 pip install -r requirements.txt
 ```
+pip install pyyaml
