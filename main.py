@@ -1,4 +1,3 @@
 from mlProject import logger
 
-
-logger.info("Welcome to ML Project")
+logger.info("Welcome to mlProject")
